@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+p {
+  font-size: 1.25rem;
+  line-height: 1.87rem;
+}
+
+main {
+  padding: 72px 0px 58px;
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: 8px solid hsla(0, 0%, 60%);
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+em {
+  font-style: normal;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.intro-chunk {
+  background-color: hsl(0deg, 0%, 100%);
+  max-width: 463px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 96px;
+  padding-block-end: 64px;
+}
+
+.title {
+  margin-block-start: 0px;
+  margin-block-end: 48px;
+}
+
+.indented-heading {
+  display: inline-block;
+  margin-inline-start: -8px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding: 16px 32px 15px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-block-end: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card {
+  padding-block-start: 8px;
+  padding-block-end: 24px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-block-end: 8px solid hsl(0, 0%, 60%);
+}
+
+.card p {
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+}
+
+.card p:last-child {
+  margin-block-end: 0px;
+}
