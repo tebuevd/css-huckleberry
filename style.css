@@ -16,7 +16,7 @@ p {
 }
 
 main {
-  padding: 72px 0px 58px;
+  padding: 64px 0px 64px;
   background-color: hsl(0deg, 0%, 40%);
   border-top: 8px solid hsla(0, 0%, 60%);
 }
